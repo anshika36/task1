@@ -1,0 +1,352 @@
+@import url('https://fonts.google.com/specimen/Croissant+One');
+
+
+  * {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  nav {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+  }
+  nav .mainMenu {
+    display: flex;
+    list-style: none;
+  }
+  nav .mainMenu li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    transition: 0.2s ease;
+  }
+  nav .mainMenu li a:hover {
+    background: rgb(255, 94, 0);
+  }
+  nav .openMenu {
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+  }
+  nav .closeMenu{
+    display: none;
+  }
+  nav .logo {
+    margin: 6px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  /* ----------------- */
+  #home{
+    display: flex;
+    background-color: #ab4e52;
+}
+#home img{
+    width: 500px;
+    height: 500px;
+    /* background: red; */
+    border: 2px solid black;
+    border-radius:50% ;
+    margin-top: 20px;
+    margin-left: 20%;
+    text-align: right;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+#home .head{
+    margin-top: 15%;
+    margin-left: 50px;
+}
+#home .head h3{
+    font-size: 40px;
+    font-weight: 600;
+}
+#home .head h1{
+    font-size: 50px;   
+}
+#home .btn{
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: gold;
+    border-radius: 4px;
+}
+#home .btn:hover{
+    background-color: black;
+    color: beige;
+}
+#about{
+    background-color: black;
+    display: flex;
+    height: 550px;
+}
+#about img{
+    margin-left: 40px;margin-bottom: 20px;
+}
+.heading{
+    color: #fff;
+    margin-top: 12%;
+    margin-left: 10%;
+}
+.heading h1{
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+.heading span{
+    color: gold;
+}
+.heading h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#skills{
+    height: 530px;
+    background-color: #ab4e52;
+}
+#skills h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+}
+#skills h1 span{
+    color: gold;
+}
+#skills .container{
+    display: flex;   
+    padding: 20px;
+}
+#skills .container .box1{
+    border-top: 5px solid gold;
+    border-radius: 20px;
+    width: 700px;
+    padding: 15px;
+    margin: 20px;
+    border-bottom: 5px solid gold;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.06);
+}
+#skills .container .box2{
+    border-top: 5px solid gold;
+    border-radius: 20px;
+    width: 700px;
+    padding: 15px;
+    margin: 20px;
+    border-bottom: 5px solid gold;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.06);
+}
+#skills .container .box3{
+    border-top: 5px solid gold;
+    border-radius: 20px;
+    width: 700px;
+    padding: 15px;
+    margin: 20px;
+    border-bottom: 5px solid gold;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.06);
+}
+#skills .container p{
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+#skills .container .btn{
+    padding: 10px;
+    margin-left: 100px;
+    background-color: gold;
+    border-radius: 5px solid black;
+}
+#skills .container .btn:hover{
+    color: beige;
+    background-color: black;
+}
+#project{
+    background-color: black;
+}
+#project h1{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    padding: 30px;
+}
+#project span{
+    color: gold;
+}
+#project img{
+    width: 370px;
+    padding: 20px;
+    margin: 15px;
+}
+
+#contact {
+    height: 530px;
+    background-color: #ab4e52;
+}
+#contact h1{
+        text-align: center;
+        font-size: 50px;
+        color: black;
+        padding: 20px;
+}
+#contact span{
+    color: gold;
+}
+#contact .form{
+    width: 1000px;
+    margin: 50px;
+    padding-left: 70px;
+    justify-content: space-between;
+    display: inline-block;
+    padding-right: 5px;
+}
+#contact .form input{
+    width: 450px;
+    padding: 13px;
+    margin: 5px;
+    border-radius: 3px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+#contact textarea{
+    width: 920px;
+    border-radius: 3px;
+    color: white;
+    background-color: black;
+    border: none;
+    margin-top: 4px;
+}
+#contact .btn{
+    margin-left: 500px;
+    width: 170px;
+    padding: 7px;
+    color: black;
+    background-color: gold;
+}
+#contact .btn:hover{
+    color: blanchedalmond;
+    background-color: black;
+}
+#footer{
+    height: 230px;
+    background-color: black;
+    color: #fff;
+}
+#footer h3{
+    text-align: center;
+    padding: 20px;
+}
+#footer .icon  {
+    width: 30px;
+    margin-left: 41%;
+    display: flex;
+}
+#footer .icon i{
+    padding: 8px;
+}
+#footer .foooter-text{
+    margin-top: 90px;
+    text-align: center;
+}
+#footer .icon i:hover{
+    color: aqua;
+}
+
+/* media query */
+
+
+@media (max-width: 800px) {
+    nav .mainMenu {
+      height: 100vh;
+      position: fixed;
+      top: 0px;
+      right: 0px;
+      left: 0px;
+      z-index: 10;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: rgb(0, 0, 0);
+      transition: top 1s ease 0s;
+      display: none;
+
+    }
+    nav .mainMenu .closeMenu {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    nav .openMenu {
+      display: block;
+    }
+    nav .mainMenu li a:hover {
+      background: none;
+      color: rgb(255, 123, 0);
+    }
+    #home .head{
+        margin-top: 20%;
+    }
+    #home .head h3{
+        font-size: 30px;
+    }
+    #home .head h1{
+        font-size: 38px;   
+    }
+    #home .head h2{
+        font-size: 25px;   
+    }
+    #about img{
+        margin-left: 20px;
+    }
+    .heading{
+        color: #fff;
+        margin-top: 17%;
+        margin-right: 40px;
+        margin-left: 0;
+    }
+    #skills{
+        height: 1050px;
+    }
+     #skills .container{
+        display: inline-block;   
+    } 
+    #skills .container .btn{
+        margin-left: 300px;
+    }
+    #project img{
+        width: 550px;
+        margin: 1px;
+        margin-left: 120px;
+    }
+    #contact{
+        height: 600px;
+    }
+    #contact .form{
+        width: 500px;
+        margin: 20px;
+        padding-left: 30px;
+        display: inline-block;
+    }
+     #contact .form input{
+        width: 500px;
+        padding: 13px;
+        margin-left: 85px;
+    }
+    
+    #contact textarea{
+        width: 500px;
+        margin-left: 85px;
+    }
+    #contact .btn{
+        margin-left: 300px;
+    }
+  }
